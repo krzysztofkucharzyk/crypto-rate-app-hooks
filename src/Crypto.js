@@ -24,7 +24,7 @@ function App(props) {
         })
             .then(res => {
                 const tickers = res.data;
-
+ 
                 setCryptoList(() => {
                     let newCryptoList = [];
 
